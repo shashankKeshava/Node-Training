@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+    <style>
+    /* ol { list-style-type: upper-roman; }  */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Table</h2>
+    </header>
+    <table summary="Trucks, cars, and motorcycles, described according to their number of
+axles, vehicle weight, and passenger capacity.">
+        <caption>Types of gasoline- and diesel-fueled road vehicles.</caption>
+        <colgroup id="type"></colgroup>
+        <colgroup id="axlect"></colgroup>
+        <colgroup id="wt">
+            <col id="gvw" />
+            <col id="mvw" />
+        </colgroup>
+        <colgroup id="pax"></colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="colgroup" abbr="Type">Vehicle type</th>
+                <th rowspan="2" scope="colgroup"># of axles</th>
+                <th colspan="2" scope="colgroup">Weight</th>
+                <th rowspan="2" scope="colgroup" abbr="Passengers">Number of passengers (incl. driver)
+                </th>
+            </tr>
+            <tr>
+                <th scope="col">Gross</th>
+                <th scope="col">
+                    <abbr title="maximum">Max.</abbr>
+                </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th rowspan="2" scope="col" abbr="Type">Vehicle type</th>
+                <th rowspan="2" scope="col"># of axles</th>
+                <th scope="col">Gross</th>
+                <th scope="col">
+                    <abbr title="maximum">Max.</abbr>
+                </th>
+                <th rowspan="2" scope="col" abbr="Passengers">Number of passengers (incl. driver)
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" scope="colgroup">Weight</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th scope="row">Truck</th>
+                <td>&ge;2</td>
+                <td>&gt;1.5t</td>
+                <td>2.5t&ndash;25t</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">Car</th>
+                <td>2</td>
+                <td>0.5t&ndash;2.5t</td>
+                <td>1.5t&ndash;4t</td>
+                <td>1&ndash;8</td>
+            </tr>
+            <tr>
+                <th scope="row">Motorcycle</th>
+                <td>2</td>
+                <td>&lt;0.25t</td>
+                <td>0.3t&ndash;0.5t</td>
+                <td>1&ndash;2</td>
+            </tr>
+        </tbody>
+    </table>
+    <h5>Greater Wavelengths</h5>
+    <ol>
+        <li>Red</li>
+        <li>Orange</li>
+        <li>Yellow</li>
+        <li>Green</li>
+    </ol>
+    <h5>Shorter Wavelengths</h5>
+    <ol start="5">
+        <li>Blue</li>
+        <li>Indigo</li>
+        <li>Violet</li>
+    </ol>
+    <h5>Interesting Subjects</h5>
+    <ul>
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Maths</li>
+    </ul>
+</body>
+
+</html>

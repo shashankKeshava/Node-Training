@@ -5,6 +5,8 @@ console.log("starting  ...8000\n");
 var http = require("http");
 var connect = require("connect");
 var app = connect();
+var query = require('connect-query');
+
 
 /*
 function middleware(request, response, next) {
@@ -15,7 +17,7 @@ function middleware(request, response, next) {
 //  Chaining Together Multiple Pieces of 
 //Connect Middleware, (by calling use()).
 
-app.use(connect.query());
+app.use(query());
 
 app.use(function(request, response, next) {
     var query = request.query;

@@ -12,8 +12,10 @@
     "async": "^2.0.0-rc.6",
     "colors": "^1.1.2",
     "connect": "^3.4.1",
+    "connect-query": "^0.2.0",
     "events": "^1.1.0",
     "fs": "0.0.2",
+    "path": "^0.12.7",
     "util": "^0.10.3"
   },
   "repository": {
