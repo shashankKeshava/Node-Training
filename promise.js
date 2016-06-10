@@ -1,5 +1,6 @@
 // $  npm install q
 
+// q module implments promise
 var q = require('q');
 
 // console.log(q) ;

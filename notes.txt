@@ -25,3 +25,8 @@ wget vs curl
 Learn awk
 module q implements promise
 Promise - Returns an objects waits to resolve promise and promise never forgets 
+
+Node Debugger
+$ node --debug-brk fileName.js
+or
+$ node --debug fileName.js
