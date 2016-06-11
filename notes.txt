@@ -38,3 +38,6 @@ mocha -R json ex1.js
 
 Chai
 
+Node_testing
+mocha tests --recursive --watch
+
