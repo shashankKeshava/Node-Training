@@ -1,18 +1,14 @@
 Day 1
 
 ---JavaScript
-
 Anonymus fun 
 
 ---Introduction Node
 REPL (Read Eval Print Loop)
 base64
 DMA
-
 Exception Handling (fs.stats or Process)
-
 Unix Signals
-
 Promise
 
 
@@ -20,7 +16,6 @@ Day 2
 Lambda Expressions
 streams 
 OSI model in node
-
 wget vs curl
 Learn awk
 module q implements promise
@@ -36,5 +31,10 @@ Express Framework
 Socket.io
 TDD(Test Driven Development)
 
+--Testing Frameworks
+
 Mocha
 mocha -R json ex1.js 
+
+Chai
+
