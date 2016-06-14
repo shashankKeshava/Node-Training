@@ -1,7 +1,7 @@
 Day 1
 
 ---JavaScript
-Anonymus fun 
+Anonymus functions 
 
 ---Introduction Node
 REPL (Read Eval Print Loop)
